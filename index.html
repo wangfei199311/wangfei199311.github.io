@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>主页</title>
+</head>
+ <link rel="stylesheet" href="css/style.css">
+ <style type="text/css">
+ @font-face {
+ font-family: 'wangfei';
+ src: url('fonts/icomoon.eot'); /* IE9*/
+ src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+ url('fonts/icomoon.woff') format('woff'), /* chrome、firefox */
+ url('fonts/icomoon.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+ url('fonts/icomoon.svg#uxiconfont') format('svg'); /* iOS 4.1- */
+ }
+ </style>
+ <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+ <script type="text/javascript">
+	function test1(){
+		document.getElementById("span_jj").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_nz").style.borderBottom="none";
+		document.getElementById("span_ps").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_hfp").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_nz").style.backgroundColor="white";
+		document.getElementById("span_jj").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_ps").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_hfp").style.backgroundColor="#F8F8F8";
+		document.getElementById("jj").style.display="none";
+		document.getElementById("nz").style.display="block";
+		document.getElementById("ps").style.display="none";
+		document.getElementById("hfp").style.display="none";
+
+	}
+	function test2(){
+		document.getElementById("span_jj").style.borderBottom="none";
+		document.getElementById("span_nz").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_ps").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_hfp").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_nz").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_jj").style.backgroundColor="white";
+		document.getElementById("span_ps").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_hfp").style.backgroundColor="#F8F8F8";
+		document.getElementById("jj").style.display="block";
+		document.getElementById("nz").style.display="none";
+		document.getElementById("ps").style.display="none";
+		document.getElementById("hfp").style.display="none";
+	}
+	function test3(){
+		document.getElementById("span_jj").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_ps").style.borderBottom="none";
+		document.getElementById("span_nz").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_hfp").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_ps").style.backgroundColor="white";
+		document.getElementById("span_jj").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_nz").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_hfp").style.backgroundColor="#F8F8F8";
+		document.getElementById("jj").style.display="none";
+		document.getElementById("ps").style.display="block";
+		document.getElementById("nz").style.display="none";
+		document.getElementById("hfp").style.display="none";
+	}
+		function test4(){
+		document.getElementById("span_jj").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_hfp").style.borderBottom="none";
+		document.getElementById("span_ps").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_nz").style.borderBottom="1px solid #CFCFCF";
+		document.getElementById("span_hfp").style.backgroundColor="white";
+		document.getElementById("span_jj").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_ps").style.backgroundColor="#F8F8F8";
+		document.getElementById("span_nz").style.backgroundColor="#F8F8F8";
+		document.getElementById("jj").style.display="none";
+		document.getElementById("hfp").style.display="block";
+		document.getElementById("ps").style.display="none";
+		document.getElementById("nz").style.display="none";
+	}
+</script>
+<body >
+<div id="main">
+	<div class="logo">
+		<img src="images/logo.png">
+	</div>
+	<div class="meun">
+		<p>
+			<a href="#" class="href1">网站首页</a><span>|</span>
+        	<a href="#">爱美丽.女装</a>
+        	<span>|</span>
+        	<a href="#">爱家庭.家具</a>
+       	 	<span>|</span>
+       	 	<a href="#">爱捣鼓.配饰</a>
+        	<span>|</span>
+        	<a href="#">爱自己.护肤</a>
+    	</p>
+	</div>
+	<div id="demo">
+		<div id="indemo">
+			<div id="demo1">
+			<a href="#"><img src="images/a5b8091a1c436faae50500fed4a13727.jpg" border="0" /></a>
+			<a href="#"><img src="images/a43440d419d34f3a8c8395041a9bd9.jpg" border="0" /></a>
+			<a href="#"><img src="images/bg_hanrancream.jpg" border="0" /></a>
+			<a href="#"><img src="images/531e6c20a8ab4c4585a85334de979a2d.jpg" border="0" /></a>
+			</div>
+			<div id="demo2"></div>
+		</div>
+	</div>
+	<div class="content">
+		<div id="top10">
+			<span class="t1"><STRONG>TOP4</STRONG></span><span class="t2"> 畅销产品</span>
+		</div>
+		<div id="xxk" >
+		<span id="span_nz" onmouseover="test1()">大衣</span>
+		<span id="span_jj" onmouseover="test2()">套装</span>
+		<span id="span_ps" onmouseover="test3()">配饰</span>
+		<span id="span_hfp" onmouseover="test4()">家具</span>
+		<ul id="nz">
+			<li><a href="http://chuantu.biz/t2/24/1454059075x-1566638194.png" target="_blank"><img src="images/2016-01-28_192133.png"><span></span></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059203x-1376440234.png" target="_blank"><img src="images/2016-01-28_192256.png"></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059537x-954498945.png" target="_blank"><img src="images/2016-01-28_192348.png"></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059572x-954498945.png" target="_blank"><img src="images/2016-01-28_192401.png"></a></li>
+		</ul>
+		<ul id="hfp" style="margin-left:94px;">
+			<li><a href="#" target="_blank"><img src="images/2016-01-28_192906.png"></a></li>
+			<li ><img src="images/BJ_Area.jpg" style="width:40%;margin-top:30px;"></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059892x-1376440234.png" target="_blank"><img src="images/2016-01-28_192920.png"></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059885x-954498945.png" target="_blank"><img src="images/2016-01-28_192931.png"></a></li>
+		</ul>
+		<ul id="ps"style="margin-left:94px;">
+			<li><a href="#" target="_blank"><img src="images/2016-01-28_192632.png"></a></li>
+			<li><img src="images/BJ_Area_副本.jpg" style="width:40%;margin-top:30px;"></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059845x-954498945.png" target="_blank"><img src="images/2016-01-28_192646.png"></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454060030x-954498945.png" target="_blank"><img src="images/2016-01-28_192659.png"></a></li>
+		</ul>
+		<ul id="jj">
+			<li><a href="http://chuantu.biz/t2/24/1454059610x-954498945.png" target="_blank"><img src="images/2016-01-28_192411.png"></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059693x-954498945.png" target="_blank"><img src="images/2016-01-28_192427.png"></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059687x-1566638194.png" target="_blank"><img src="images/2016-01-28_192439.png"></a></li>
+			<li><a href="http://chuantu.biz/t2/24/1454059705x-1566638194.png" target="_blank"><img src="images/2016-01-28_192448.png"></a></li>
+		</ul>
+	</div>
+	<div class="footerPartT">
+	<h4 class="font24 fb">切勿错过精彩资讯！<br><br></h4>
+	<p class="mt30 tl" style="line-height:20px;font: 12px">通过电子订阅，了解最新的时尚信息、最潮的品牌，以及最新货品，跟上流行前沿的脚步！<br><br></p>
+	<div class="clearfix mt30">
+		<input id="email1" class="foIns" type="text" value="" style="color:#666666" name="email">
+		<input id="dingyue" class="blackBtn foInsTwo" type="button" value="订阅" >
+	</div>
+	</div>	
+</div>
+
+	<div id="fashion">
+		<p style="margin-top:-300px;font-family:微软雅黑;font-size:30px;color:#363636;height:25px;margin-left:220px;">资讯热点</p>
+		<img src="images/BG_mainQuickLink.png"  style="margin-top:30px;margin-left:150px;">
+		<div id="news1">			
+			<img src="images/fashion.png"><p style="font-size:15px;font-color:#764040;line-height:30px;margin-top:10px;">主厨Rene Redzepi用蜗牛、沙棘和野生香料等当地食材入菜，运用创新手法把北欧传统菜玩出花样，评审盛赞他“重新定义了丹麦食物”。<br>Noma餐厅于2010、2011、2012、2014年四次摘下英国《餐厅》杂志评选的全球50最佳餐厅冠军头衔。主厨Redzepi也被《时代周刊》评为2012年全球100位最有影响力人物。</p>
+		</div>
+		<div class="news1">
+			<img src="images/fashion1.png" style="margin-left:35px;width:60%"><p style="font-size:13px;font-color:#764040;line-height:26px;">&nbsp&nbsp&nbsp&nbsp&nbsp保暖小玩意儿——围巾<br>冬天戴上围巾出门，能让人们在健康的前提下变美。这么冷的天气，姑娘要风度又要温度</p>
+		</div>
+		<div class="news2">
+			<img src="images/fashion2.png" style="margin-left:35px;width:60%"><p style="font-size:13px;font-color:#764040;line-height:26px;">&nbsp&nbsp&nbsp&nbsp层层叠叠，经历万年沉淀的钙化梯田。<br>矿物质沉淀钙化了一万四千年，才形成今天所看到分布范围约有2000 米长，500 米宽的样子。</p>
+		</div>
+		<div class="news3">
+			<img src="images/fashion3.png" style="margin-left:35px;width:60%"><p style="font-size:13px;font-color:#764040;line-height:26px;">&nbsp&nbsp埃及将建造全球首座水下博物馆<br>游客可以通过潜水或步行于水底隧道来欣赏遗迹和文物，或者坐上玻璃潜水艇在博物馆内参观。</p>
+		</div>
+		<div class="news4">
+			<img src="images/fashion4.png" style="margin-left:35px;width:60%"><p style="font-size:13px;font-color:#764040;line-height:26px;">螺丝竟然都暴露在了这些腕表的表盘上<br>以黑色陶瓷打造的计时按钮与表壳构成鲜明对比，亦彰显出爱彼皇家橡树离岸型腕表创新、前卫的设计特质。</p>
+		</div>
+	</div>
+<div class="footer-container">
+	<div class="footer">
+	<div>
+		<div class="filedset" style="margin-top:100px;margin-left:-300px;border-right:none;">
+			<map id="footer_buy" name="footer_buy">
+				<area title="企业团/采购" shape="rect" coords="3,1,213,153" href="#" target="_blank">
+				<area title="礼品卡" shape="rect" coords="215,3,456,152" href="#" target="_blank">
+			</map>
+			<h2 class="legend">网络咨询</h2>
+			<ul class="tele">
+				<li>
+					<strong>订购热线</strong>
+					<br>
+					<span>(订购热线服务时间:10:00-22:00)</span>
+					<br>
+					<cite>400-690-5151</cite>
+				</li>
+				<li id="notVIPTel">
+					<b></b>
+					<strong>售后服务热线</strong>
+					<br>
+					<span>(售后热线服务时间:10:00-19:00)</span>
+					<br>
+					<cite>400-680-8517</cite>
+				</li>
+				<li class="last">
+					<b></b>
+					<strong>在线客服</strong>
+					<br>
+					<span>(服务时间:10:00-22:00)</span>
+					<br>
+					<a onclick="#">在线客服 即时答疑 ></a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="block">
+			<a id="online" onclick="#"></a>
+		<style type="text/css">
+		body {
+ 			*position:relative; /* for IE6,IE7*/
+		}
+		#storelt {
+  			height:398px;
+		}
+		.categoryProductItem {
+   			height:370px;
+		}
+		.gMap_R .store h3 .icon, .gMap_store .mapF1 .icon {
+    		position : static;
+		}
+		.listing-type-grid .product-image img {
+   			width:200px;
+		}
+		.footer-container .block{
+			padding:0;
+		}
+		.footer-container dl {
+        	width: 115px;
+        	padding-left:10px;
+		}
+		.footer-container dl.footimg {
+			width: 460px;
+		}
+		.footer-container dl.footimg dd {
+			margin-top: 0;
+			height: 155px;
+		}
+		.footer-container #help-list2 {
+			width: 110px;
+			margin-left: 0;
+		}
+		.footer-container #help-list5 {
+			width: 108px;
+		}
+		</style>
+			<dl id="help-list1" class="footimg" style="margin-left:150px;margin-top:30px">
+				<dd style="background:none;border:none;">
+					<img width="453" height="155" border="0" usemap="	#footer_buy" src="images/2016-02-08_203423.png">
+					
+				</dd>
+			</dl>
+			<dl id="help-list2"style="margin-left:30px;margin-top:30px ">
+				<dt>新手上路</dt>
+				<dd><a target="_blank" href="#">如何注册</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">密码修改及取回</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">邮箱及送货地址</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">尺码说明</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">积分</a>
+					/<a target="_blank" href="#">优惠券</a>
+				</dd>
+			</dl>
+			<dl id="help-list3" style="margin-top:30px">
+				<dt>支付配送</dt>
+				<dd>
+					<a target="_blank" href="#">支付方式</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">配送方式及时间</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">关于商品价格</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">发票制度</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">运费优惠</a>
+				</dd>
+			</dl>
+			<dl id="help-list4" style="margin-top:30px">
+				<dt>订单及售后</dt>
+				<dd>
+					<a target="_blank" href="#">订单查询及处理</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">关于礼品订单</a>
+				</dd>
+				<dd>
+					退换货
+					<a target="_blank" href="#">政策</a>
+					/
+					<a target="_blank" href="#">流程</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">建议或投诉</a>
+				</dd>
+			</dl>
+			<dl id="help-list5" style="margin-top:30px">
+				<dt>关于我们</dt>
+				<dd>
+					<a target="_blank" href="#">品牌故事</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">联系我们</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">加入我们</a>
+				</dd>
+				<dd>
+					<a target="_blank" href="#">隐私政策</a>
+				</dd>
+			</dl>
+			<div class="clear">
+</div>
+</div>
+</div>
+</div>
+<script>
+var speed=5;
+var tab=document.getElementById("demo");
+var tab1=document.getElementById("demo1");
+var tab2=document.getElementById("demo2");
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+if(tab2.offsetWidth-tab.scrollLeft<=0)
+tab.scrollLeft-=tab1.offsetWidth
+else{
+tab.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+</script>
+
+
+</body>
+</html> 
